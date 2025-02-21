@@ -1,5 +1,7 @@
 <?php
 
 return [
-    'shared_token' => env('API_SHARED_TOKEN', 'API_SHARED_TOKEN')
+    'app' => [
+        'shared_token' => env('APP_API_SHARED_TOKEN', 'secret_token')        
+    ]
 ];
