@@ -9,7 +9,7 @@ class ValidateSharedToken
 {
     public function handle(Request $request, Closure $next)
     {
-        $sharedToken = config('api.shared_token'); // Token compartido en .env
+        $sharedToken = config('api.app.shared_token'); // Shared token in .env
 
         $token = $request->header('Authorization');
 
