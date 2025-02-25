@@ -34,8 +34,8 @@ class MuMeasureUnitSeeder extends Seeder
         DB::statement("INSERT INTO public.mu_measure_units VALUES (18, 2, 'Decigramo(s)', 'dg', '0.1 g')");
         DB::statement("INSERT INTO public.mu_measure_units VALUES (19, 2, 'Centigramo(s)', 'cg', '0.01 g')");
         DB::statement("INSERT INTO public.mu_measure_units VALUES (20, 2, 'Miligramo(s)', 'mg', '0.001 g')");
-        DB::statement("INSERT INTO public.mu_measure_units VALUES (21, 2, 'Tonelada(s) Métrica', 't', '1 t = 1000 kg')");
-        DB::statement("INSERT INTO public.mu_measure_units VALUES (22, 2, 'Quintal Métrico', 'qm', '1 q = 100 kg')");
+        DB::statement("INSERT INTO public.mu_measure_units VALUES (21, 2, 'Tonelada(s) Métrica(s)', 't', '1 t = 1000 kg')");
+        DB::statement("INSERT INTO public.mu_measure_units VALUES (22, 2, 'Quintal(es) Métrico(s)', 'qm', '1 q = 100 kg')");
         DB::statement("INSERT INTO public.mu_measure_units VALUES (23, 3, 'Kilolitro(s)', 'kl', '1000 l')");
         DB::statement("INSERT INTO public.mu_measure_units VALUES (24, 3, 'Hectolitro(s)', 'hl', '100 l')");
         DB::statement("INSERT INTO public.mu_measure_units VALUES (25, 3, 'Decalitro(s)', 'dal', '10 l')");
@@ -43,7 +43,7 @@ class MuMeasureUnitSeeder extends Seeder
         DB::statement("INSERT INTO public.mu_measure_units VALUES (27, 3, 'Decilitro(s)', 'dl', '0.1 l')");
         DB::statement("INSERT INTO public.mu_measure_units VALUES (28, 3, 'Centilitro(s)', 'cl', '0.01 l')");
         DB::statement("INSERT INTO public.mu_measure_units VALUES (29, 3, 'Mililitro(s)', 'ml', '0.001 l')");
-        DB::statement("INSERT INTO public.mu_measure_units VALUES (30, 3, 'Barril', 'b', '159 l')");
+        DB::statement("INSERT INTO public.mu_measure_units VALUES (30, 3, 'Barril(es)', 'b', '159 l')");
         DB::statement("INSERT INTO public.mu_measure_units VALUES (31, 4, 'Kilómetro(s) Cuadrado', 'km2', '1 000 000 m2')");
         DB::statement("INSERT INTO public.mu_measure_units VALUES (32, 4, 'Hectómetro(s) Cuadrado', 'hm2', '10 000 m2')");
         DB::statement("INSERT INTO public.mu_measure_units VALUES (33, 4, 'Decámetro(s) Cuadrado', 'dam2', '100 m2')");
@@ -51,17 +51,17 @@ class MuMeasureUnitSeeder extends Seeder
         DB::statement("INSERT INTO public.mu_measure_units VALUES (35, 4, 'Decímetro(s) Cuadrado', 'dm2', '0.01 m2')");
         DB::statement("INSERT INTO public.mu_measure_units VALUES (36, 4, 'Centímetro(s) Cuadrado', 'cm2', '0.0001 m2')");
         DB::statement("INSERT INTO public.mu_measure_units VALUES (37, 4, 'Milímetro(s) Cuadrado', 'mm2', '0.000001 m2')");
-        DB::statement("INSERT INTO public.mu_measure_units VALUES (38, 5, 'Hectárea', 'h', '1 Ha = 1 Hm2 = 10 000 m2')");
-        DB::statement("INSERT INTO public.mu_measure_units VALUES (39, 5, 'Área', 'a', '1 a = 1 dam2 = 100 m2')");
-        DB::statement("INSERT INTO public.mu_measure_units VALUES (40, 5, 'Centiárea', 'ca', '1 ca = 1 m2')");
-        DB::statement("INSERT INTO public.mu_measure_units VALUES (41, 6, 'Kilómetro(s) Cúbico', 'km3', '1 000 000 000 m3')");
-        DB::statement("INSERT INTO public.mu_measure_units VALUES (42, 6, 'Hectómetro(s) Cúbico', 'hm3', '1 000 000m3')");
-        DB::statement("INSERT INTO public.mu_measure_units VALUES (43, 6, 'Decámetro(s) Cúbico', 'dam3', '1 000 m3')");
-        DB::statement("INSERT INTO public.mu_measure_units VALUES (44, 6, 'Metro(s) Cúbico', 'm3', '1 m3')");
-        DB::statement("INSERT INTO public.mu_measure_units VALUES (45, 6, 'Decímetro(s) Cúbico', 'dm3', '0.001 m3')");
-        DB::statement("INSERT INTO public.mu_measure_units VALUES (46, 6, 'Centímetro(s) Cúbico', 'cm3', '0.000001 m3')");
-        DB::statement("INSERT INTO public.mu_measure_units VALUES (47, 6, 'Milímetro(s) Cúbico', 'mm3', '0.000000001 m3')");
-        DB::statement("INSERT INTO public.mu_measure_units VALUES (48, 7, 'Unidades', 'Unid', '1')");
+        DB::statement("INSERT INTO public.mu_measure_units VALUES (38, 5, 'Hectárea(s)', 'h', '1 Ha = 1 Hm2 = 10 000 m2')");
+        DB::statement("INSERT INTO public.mu_measure_units VALUES (39, 5, 'Área(s)', 'a', '1 a = 1 dam2 = 100 m2')");
+        DB::statement("INSERT INTO public.mu_measure_units VALUES (40, 5, 'Centiárea(s)', 'ca', '1 ca = 1 m2')");
+        DB::statement("INSERT INTO public.mu_measure_units VALUES (41, 6, 'Kilómetro(s) Cúbico(s)', 'km3', '1 000 000 000 m3')");
+        DB::statement("INSERT INTO public.mu_measure_units VALUES (42, 6, 'Hectómetro(s) Cúbico(s)', 'hm3', '1 000 000m3')");
+        DB::statement("INSERT INTO public.mu_measure_units VALUES (43, 6, 'Decámetro(s) Cúbico(s)', 'dam3', '1 000 m3')");
+        DB::statement("INSERT INTO public.mu_measure_units VALUES (44, 6, 'Metro(s) Cúbico(s)', 'm3', '1 m3')");
+        DB::statement("INSERT INTO public.mu_measure_units VALUES (45, 6, 'Decímetro(s) Cúbico(s)', 'dm3', '0.001 m3')");
+        DB::statement("INSERT INTO public.mu_measure_units VALUES (46, 6, 'Centímetro(s) Cúbico(s)', 'cm3', '0.000001 m3')");
+        DB::statement("INSERT INTO public.mu_measure_units VALUES (47, 6, 'Milímetro(s) Cúbico(s)', 'mm3', '0.000000001 m3')");
+        DB::statement("INSERT INTO public.mu_measure_units VALUES (48, 7, 'Unidad(es)', 'Unid', '1')");
         DB::statement(
             "UPDATE public.mu_measure_units
             SET created_at = now()::timestamp(0) without time zone,
