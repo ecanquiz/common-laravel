@@ -29,9 +29,9 @@ class MuContainerSeeder extends Seeder
         DB::statement("INSERT INTO public.mu_containers VALUES (13, 'FAJA(S)')");
         DB::statement("INSERT INTO public.mu_containers VALUES (14, 'FRASCO(S)')");
         DB::statement("INSERT INTO public.mu_containers VALUES (15, 'GABERA(S)')");
-        DB::statement("INSERT INTO public.mu_containers VALUES (16, 'GALON(ES)')");
+        DB::statement("INSERT INTO public.mu_containers VALUES (16, 'GALÓN(ES)')");
         DB::statement("INSERT INTO public.mu_containers VALUES (17, 'GRANEL')");
-        DB::statement("INSERT INTO public.mu_containers VALUES (18, 'LAMINA(S)')");
+        DB::statement("INSERT INTO public.mu_containers VALUES (18, 'LÁMINA(S)')");
         DB::statement("INSERT INTO public.mu_containers VALUES (19, 'LATA(S)')");
         DB::statement("INSERT INTO public.mu_containers VALUES (20, 'PACA(S)')");
         DB::statement("INSERT INTO public.mu_containers VALUES (21, 'PAILA(S)')");
